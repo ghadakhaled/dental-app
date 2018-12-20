@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".HomeClinic">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/shapback" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="259dp"
+        android:layout_height="212dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="136dp"
+        app:srcCompat="@drawable/homereservation" />
+
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="257dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="168dp"
+        android:background="@drawable/budesign"
+        android:text="New Reservation"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Login2"
+        android:layout_width="257dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/budesign"
+        android:text="Forfollow-up"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/Login3"
+        android:layout_width="257dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/budesign"
+        android:text="Patient File"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="93dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="135dp"
+        app:srcCompat="@drawable/logpurple" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="55dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="11dp"
+        app:srcCompat="@drawable/vector" />
+
+
+</RelativeLayout>
